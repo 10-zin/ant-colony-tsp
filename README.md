@@ -8,8 +8,14 @@ TSP requires points and their coordinates to provide a basis of forming a possib
 |-------|--------------|-------------|
 |1      | 23           | 67          |
 |2      |45            | 99          |
+
+However, for robust evaluation of ACO in solving the TSP problem, a total of 7 dependent datasets of x points is created, where x $ \in { 10n : n \in 2k  + 1, where k \in {0,2..6} }$. They are created such that each dataset of n points has all similar points as the dataset with n- points, where  denotes the number of newly added points in the graph This structure helps in a better interpretation of the tests as it creates a much fairer prior for comparison. Moreover, we start with a dataset of 10 points and end with a dataset of 130 points. 
+The distance between two points are calculated using the standard euclidean distance formula for 2 dimensional space based on the end point coordinates. if p = (p1, p2) and q = (q1, q2) then the distance is given by:
+
+
 ### Usage
 Run `pip install requirements.txt`
+
 Run `python main.py` to see the results.
 
 ### Inference 
