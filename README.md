@@ -1,11 +1,15 @@
 # ant-colony-tsp
-Solve TSP using Ant Colony Optimization in Python 3
+Solving the Travelling Salesman Problem using Ant Colony Optimization.
 
-### Requirements
-* Python3
-* matplotlib
+### Dataset
+TSP requires points and their coordinates to provide a basis of forming a possible path, hence, a dataset with 3 columns consisting of the label of point - x-coordinate and y-coordinate - is created. The following table illustrates the basic schema of this dataset.
 
+| Point | X-Coordinate | Y-coordinate|
+|-------|--------------|-------------|
+|1      | 23           | 67          |
+|2      |45            | 99          |
 ### Usage
+Run `pip install requirements.txt`
 Run `python main.py` to see the results.
 
 ### Inference 
