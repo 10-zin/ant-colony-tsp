@@ -9,7 +9,7 @@ TSP requires points and their coordinates to provide a basis of forming a possib
 |1      | 23           | 67          |
 |2      |45            | 99          |
 
-However, for robust evaluation of ACO in solving the TSP problem, a total of 7 dependent datasets of x points is created, where ![](https://latex.codecogs.com/gif.latex?x%20%5Cin%20%5C%7B%2010n%20%3A%20n%5Cin%202k&plus;1%2C%20where%20%5C%20k%20%5Cin%20%5C%7B0%2C%202%2C%20..6%5C%7D%20%5C%7D)x $ . They are created such that each dataset of n points has all similar points as the dataset with n- points, where  denotes the number of newly added points in the graph This structure helps in a better interpretation of the tests as it creates a much fairer prior for comparison. Moreover, we start with a dataset of 10 points and end with a dataset of 130 points. 
+However, for robust evaluation of ACO in solving the TSP problem, a total of 7 dependent datasets of x points is created, where : ![](https://latex.codecogs.com/gif.latex?x%20%5Cin%20%5C%7B%2010n%20%3A%20n%5Cin%202k&plus;1%2C%20where%20%5C%20k%20%5Cin%20%5C%7B0%2C%202%2C%20..6%5C%7D%20%5C%7D).  They are created such that each dataset of n points has all similar points as the dataset with n- points, where  denotes the number of newly added points in the graph This structure helps in a better interpretation of the tests as it creates a much fairer prior for comparison. Moreover, we start with a dataset of 10 points and end with a dataset of 130 points. 
 The distance between two points are calculated using the standard euclidean distance formula for 2 dimensional space based on the end point coordinates. if p = (p1, p2) and q = (q1, q2) then the distance is given by:
 
 
